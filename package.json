@@ -1,31 +1,24 @@
 {
-  "name": "pink",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Личный проект «Пинк» от HTML Academy",
-  "devDependencies": {
-    "autoprefixer": "6.5.3",
-    "grunt": "1.0.1",
-    "grunt-browser-sync": "2.2.0",
-    "grunt-contrib-less": "1.4.0",
-    "grunt-contrib-watch": "1.0.0",
-    "grunt-postcss": "0.8.0",
-    "@htmlacademy/editorconfig-cli": "0.1.x"
-  },
+  "name": "6-pink",
+  "version": "1.0.0",
+  "description": "pink",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "editorconfig-cli",
-    "build": "grunt less && grunt postcss",
-    "start": "npm run build && grunt serve"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "editorconfig-cli": [
-    "*.html",
-    "*.json",
-    "*.js",
-    "js/**/*.js",
-    "img/**/*.svg",
-    "less/**/*.less"
-  ],
-  "engines": {
-    "node": "6.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvit/pink.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuvit/pink/issues"
+  },
+  "homepage": "https://github.com/Yuvit/pink#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
   }
 }
