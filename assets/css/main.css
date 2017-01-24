@@ -7,6 +7,7 @@
  */
 /* Document
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=cyrillic");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -401,3 +402,84 @@ template {
  */
 [hidden] {
   display: none; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+li a {
+  color: white;
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.header-box {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.header-box__menu {
+  float: right;
+  border: #008a77 solid 5px; }
+
+.header-box__logo {
+  float: left;
+  border: #008a77 solid 5px; }
+
+.content-box {
+  background: url("../img/background-fullsize.jpg") 100% 100% no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: #008a77 solid 5px;
+  color: white; }
+
+.content-wrap {
+  background-color: #f2f2f2; }
+
+.content-wrap__first-column::before {
+  display: block;
+  width: 100%;
+  height: 310px;
+  background-image: url("../img/iphone-screen-desktop-1@1x.png");
+  background-repeat: no-repeat;
+  content: ''; }
+
+.content-wrap__second-column::before {
+  display: block;
+  width: 100%;
+  height: 310px;
+  background-image: url("../img/iphone-screen-desktop-2@1x.png");
+  background-repeat: no-repeat;
+  content: ''; }
+
+.content-wrap__second-column::before {
+  display: block;
+  width: 100%;
+  height: 310px;
+  background-image: url("../img/iphone-screen-desktop-2@1x.png");
+  background-repeat: no-repeat;
+  content: ''; }
+
+.content-wrap__third-column::before {
+  display: block;
+  width: 100%;
+  height: 310px;
+  background-image: url("../img/iphone-screen-desktop-3@1x.png");
+  background-repeat: no-repeat;
+  content: ''; }
+
+.content-wrap__full-title {
+  border: #008a77 solid 5px; }
+
+.content-wrap__first-column {
+  border: #008a77 solid 5px; }
+
+.content-wrap__second-column {
+  border: #008a77 solid 5px; }
+
+.content-wrap__third-column {
+  border: #008a77 solid 5px; }
+
+.content-wrap__link-info {
+  border: #008a77 solid 5px; }
+
+.content-wrap__last-column {
+  border: #008a77 solid 5px; }

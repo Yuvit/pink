@@ -20,7 +20,7 @@ gulp.task('watch', ['browserSync', 'sass'], function () {
 gulp.task('browserSync', function() {
   browserSync({
     server: {
-      baseDir: 'assets'
+      baseDir: './'
     },
   })
 })
